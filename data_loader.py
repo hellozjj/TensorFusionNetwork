@@ -6,8 +6,8 @@ import scipy.io as sio
 import cPickle
 import h5py
 
-
-data_path = '/media/bighdd5/Paul/mosi/'
+#change this to the root directory of CMU-MOSI
+data_path = './'
 dataset_path = data_path
 
 truth_path = dataset_path + 'Meta_data/boundaries_sentimentint_avg.csv'
